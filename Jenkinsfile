@@ -2,7 +2,7 @@ node('master')
 {
 stage('git checkout')
 {
-git 'https://github.com/jyotheesh/new'
+git 'https://github.com/jyotheesh/mortgage-new-BC'
 }
 stage('java build')
 {
